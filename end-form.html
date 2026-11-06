@@ -27,7 +27,12 @@
       <form name="favorite-topic-form" id="favorite-topic-form" method="get">
         <fieldset>
           <legend>What was your favorite topic?</legend>
+          <!-- what a legend tag does is it gives a title to the fieldset.
+          -->
           <input type="radio" id="normandy" name="topic" value="normandy" />
+          <!--what the input type="radio" does is it gives the user a optinon to choose an 
+          answer in a mulitple choice format.
+          -->
           <label for="normandy">Battle of Normandy beaches</label><br />
           <input
             type="radio"
@@ -35,7 +40,17 @@
             name="topic"
             value="pearl-harbor" />
           <label for="pearl-harbor"> Pearl Harbor</label>
+          <!-- a label tag is used to define a label for a input
+          -->
+          <!-- a id attribute is used to give a unique identifier to 
+          the input so that it can be referenced by the label tag.
+          -->
+          <!-- a name attribute is used to group the radio buttons together 
+          so that only one can be selected at a time.
+          -->
         </fieldset>
+        <!-- the fieldset tag is the box/conatiner that surrounds the form.
+        -->
         <br />
         <p>
           <label for="recommendations"
@@ -46,7 +61,12 @@
           id="recommendations"
           name="recommendations"
           rows="4"
-          cols="40"></textarea>
+          cols="40">
+        </textarea>
+        <!-- 
+          the textarea gives the user a larger area for the users opinion 
+          if they want to type something thats more takes more the one line. 
+        -->
       </br />
       <br />
         <label for="favorite-beach"
@@ -57,7 +77,11 @@
           <option value="oregon">Sword</option>
           <option value="california">Gold</option>
           <option value="junoo">Juno</option>
+          <!--value attribute is used to specify the value that will be submitted when the form is sent 
+          -->
           <option value="omaha">Omaha</option>
+          <!-- option tag is used to select a option instead of a multiple choice format 
+          -->
         </select>
         <br />
         <input
