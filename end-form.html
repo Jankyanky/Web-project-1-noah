@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>end form</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="battle-of-normandy-beaches.html"
+              >Battle of Normandy beaches</a
+            >
+          </li>
+          <li>
+            <a href="bombing-of-pearl-harbor.html">Bombing of Pearl Harbor</a>
+          </li>
+          <li><a href="end-form.html">End Form</a></li>
+        </ul>
+      </nav>
+      <h1>Your opinion</h1>
+    </header>
+    <main>
+      <form name="favorite-topic-form" id="favorite-topic-form" method="get">
+        <fieldset>
+          <legend>What was your favorite topic?</legend>
+          <input type="radio" id="normandy" name="topic" value="normandy" />
+          <label for="normandy">Battle of Normandy beaches</label><br />
+          <input
+            type="radio"
+            id="pearl-harbor"
+            name="topic"
+            value="pearl-harbor" />
+          <label for="pearl-harbor"> Pearl Harbor</label>
+        </fieldset>
+        <br />
+        <p>
+          <label for="recommendations"
+            >Recommendations on ww2 topics you'll think I'll like:</label
+          >
+        </p>
+        <textarea
+          id="recommendations"
+          name="recommendations"
+          rows="4"
+          cols="40"></textarea>
+      </br />
+      <br />
+        <label for="favorite-beach"
+          >What was your favorite beach?(if you had)</label
+        >
+        <select id="favorite-beach" name="favorite-beach">
+          <option value="utah">Utah</option>
+          <option value="oregon">Sword</option>
+          <option value="california">Gold</option>
+          <option value="junoo">Juno</option>
+          <option value="omaha">Omaha</option>
+        </select>
+        <br />
+        <input
+          type="image"
+          src="images/green-check.jpg"
+          alt="Submit button"
+          width="100"
+          height="100" />
+      </form>
+    </main>
+  </body>
+</html>
